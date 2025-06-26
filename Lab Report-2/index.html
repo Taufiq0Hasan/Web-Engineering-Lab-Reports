@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/"><img src="images/2ns.jpg" alt="Md. Taufiq Hasan" class="nav-img" /></a>
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+
+        <ul class="main-menu" id="main-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#objective">Career Objectives</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="extra.html" target="_blank">ExtraCurricular Activities</a></li>
+    </nav>
+
+
+    <header>
+        <img src="images/2ns.jpg" alt="" id="head-img">
+        <div class="container">
+            
+            <h1>MD. TAUFIQ HASAN</h1>
+            <p>Computer Science & Engineering Student</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            I am Md. Taufiq Hasan. My home district is Gaibandha. I’m a student. I am serious and disciplined about my
+            studies. I have passed the SSC examination from Gaibandha Govt. Boys' High School and HSC examination form
+            Gaibandha Govt. College, Gaibandha. Currently, I am studying at Daffodil International University,
+            Department of CSE.
+        </p>
+    </section>
+
+    <section id="objective">
+        <h2>Career Objective</h2>
+        <p>
+            To obtain a challenging position in a reputable organization to expand my learnings, knowledge, and skills.
+            I aim to work in a dynamic and growth-oriented environment where I can contribute effectively.
+        </p>
+    </section>
+
+    <section class="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Intern at Theme Beyond (June 2025 - Prsent)</li>
+        </ul>
+    </section>
+
+    <section class="Hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Football</li>
+            <li>Cricket</li>
+            <li>Cooking</li>
+            <li>Movies</li>
+            <li>Travelling</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Flutter</li>
+            <li>Machine Learning</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <section class="links">
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://sites.google.com/diu.edu.bd/md-taufiq-hasan/home?authuser=0" target="_blank">Main Portfolio</a></li>
+            <li><a href="https://github.com/Taufiq0Hasan" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/taufiqhasan34/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:taufiqhasan34@gmail.com">Email Me</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <div>
+            <p class="div-p">Designed by</p>
+            <h2 class="div-h2">Md. Taufiq Hasan</h2>
+            <p>Daffodil International University <br>Department of CSE
+            </p>
+        </div>
+
+        <div>
+            <h2>Contact:</h2>
+            <p><b>Phone:</b> 01749097945</p>
+            <p><b>Email: </b>hasan15-5131@diu.edu.bd</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const menu = document.getElementById('main-menu');
+
+        toggleBtn.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+
+
+</body>
+
+</html>
