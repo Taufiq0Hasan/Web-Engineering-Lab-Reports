@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form id="myForm">
+    <h2>Student Registration Form</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <div class="error" id="nameError"></div>
+
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id">
+    <div class="error" id="idError"></div>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <div class="error" id="emailError"></div>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <div class="error" id="passwordError"></div>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword">
+    <div class="error" id="confirmPasswordError"></div>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+      <option value="">-- Select Department --</option>
+      <option value="CSE">CSE</option>
+      <option value="EEE">EEE</option>
+      <option value="BBA">BBA</option>
+      <option value="English">English</option>
+    </select>
+    <div class="error" id="departmentError"></div>
+
+    <button type="submit">Submit</button>
+    <div class="success" id="successMessage"></div>
+  </form>
+
+  <script src="validation.js"></script>
+</body>
+</html>
